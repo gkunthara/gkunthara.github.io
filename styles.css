@@ -80,19 +80,29 @@ p {
 }
 
 .button-section{
+
+    display: flex;
     margin-top: 100px;
     height: 250px;
-    background-color: blue;
-    text-align: center;
-
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    align-items: center;
+    justify-content: center;
 }
 
 .button-style {
-    margin-top: 125px;
+
     padding: 8px 15px;
     border-radius: 5px;
     background-color: blue;
     color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #6dd5ed;
+}
+a:active{
+    background-color: indianred;
 }
 
 .copyright-section{
@@ -104,3 +114,43 @@ p {
 .footer{
     height: 100px;
 }
+
+.gallery-section{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+ }
+
+.image-flex{
+    width: 320px;
+    height: 270px;
+    padding: 25px;
+    margin-left: 25px ;
+}
+
+.container-two{
+    background-color: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1:hover{
+    color: red;
+}
+
+ @keyframes colorChange {
+     from {background-color: red;}
+     to {background-color: yellow;}
+ }
+
+
+ .container-two {
+
+     background-color: red;
+     animation-name: colorChange;
+     animation-duration: 4s;
+ }
