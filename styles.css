@@ -1,7 +1,18 @@
- div * {
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/rubik/Rubik-Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+div * {
     font-family: 'Rubik', 'Arial', sans-serif;
 
 }
+
+
 
 .container{
     margin-right: auto;
@@ -28,6 +39,7 @@ a {
 
 a:hover{
     text-decoration: none;
+    background-color: indianred;
 }
 
 ul{
