@@ -19,11 +19,6 @@ div * {
     margin-left: auto;
     max-width: 100%;
 }
-
-h1{
-    font-size: 45px;
-}
-
 p {
     text-align: center;
     font-size: 23px;
@@ -56,12 +51,11 @@ ul{
 
 .header{
     margin-top: 50px;
+    font-size: 100px;
 }
 .support{
     margin-top: 25px;
     font-size: 25px;
-    width: 750px;
-    line-height: 1.2;
 }
 .main{
     display: flex;
@@ -73,51 +67,30 @@ ul{
 }
 
 
-.button-style {
-    padding: 8px 25px;
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-    margin-top: 25px;
-}
-
-.logo{
-    width: 100px;
-    height: 50px;
-}
-
- .logo-detail{
-     width: 100px;
-     height: 50px;
-     margin-top: 25px;
- }
-
-.detail-section{
+.form-section{
+    padding-top: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.detail{
+.info{
+    width: 60vw;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.radio-group{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-evenly;
 }
 
-.detail-support{
-    color: #333;
-    width: 225px;
-    font-size: 20px;
-    margin-top: 25px;
+.radio-item{
+    padding: 25px 25px;
 }
 
-.detail-button{
-    margin-top: 25px;
-    padding: 8px 25px;
-    border-radius: 5px;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
+.submit-section{
+    display: flex;
+    justify-content: center;
 }
 
  @media (max-width: 768px) {
