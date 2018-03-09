@@ -26,6 +26,17 @@ hr {
     margin-top: 50px;
 }
 
+input {
+    outline:none;
+    background-color: transparent;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+}
+
 
 .container{
     margin-right: auto;
@@ -173,28 +184,59 @@ hr {
     height: 75%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.form-section{
-    padding-top: 25px;
+.contact-section{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 50vw;
+    margin-left: 100px;
+
 }
+
+.contact-head{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact{
+    margin-top: 30px;
+}
+
+.input-section{
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 15px;
+    width: 25vw;
+}
+
+.submit-section{
+    margin-top: 30px;
+}
+.submit-button{
+    padding: 10px 135px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #A4D8BE;
+    color: #666666;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .about-section{
@@ -215,19 +257,8 @@ hr {
     padding: 25px 25px;
 }
 
-.submit-section{
-    display: flex;
-    justify-content: center;
 
-}
 
-.submit-button{
-    padding: 10px 15px;
-    border-radius: 5px;
-    border-color: #FC5B45;
-    color: #FC5B45;
-
-}
 
 
  @media (max-width: 768px) {
