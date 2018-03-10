@@ -73,16 +73,15 @@ textarea {
 
 .logo{
     padding: 10px;
-    width: 5vw;
     margin-right: auto;
 }
 
 
 .main{
-    margin-top: 150px;
     margin-left: 50px;
-    width: 50vw;
+    width: 90vw;
     padding: 10px;
+    display: flex;
 }
 
 .main-button{
@@ -223,7 +222,23 @@ textarea {
     color: #666666;
 
 }
+.text-section{
+    margin-top: 100px;
+    width: 45vw;
+}
 
+.me-section{
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+}
+
+.me{
+    margin-top: -50px;
+
+    width: 85%;
+    height: 85%;
+}
 
 @media (min-width: 1440px) {
 
@@ -277,6 +292,10 @@ textarea {
          font-size: 20px;
      }
 
+     .text-section{
+         margin-top: 0;
+     }
+
      .resume{
          width: 80vw;
      }
@@ -300,7 +319,6 @@ textarea {
 
      .input-section{
          width: 40vw;
-
      }
 
      .submit-button{
@@ -382,6 +400,10 @@ textarea {
 
      }
 
+     .me-section{
+         display: none;
+     }
+
  }
 
 
@@ -445,7 +467,10 @@ textarea {
         text-decoration: none;
         background-color: #A4D8BE;
         color: #666666;
+    }
 
+    .me-section{
+        display: none;
     }
 
 
@@ -484,6 +509,10 @@ textarea {
          text-decoration: none;
          color: #FFF;
          font-size: 20px;
+     }
+
+     .me-section{
+         display: none;
      }
 
      .resume{
