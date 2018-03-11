@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="114px" height="103px" viewBox="0 0 114 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="8" y="12" width="106" height="91"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-84.000000, -33.000000)">
+            <g id="Logo" transform="translate(84.000000, 33.000000)">
+                <rect id="Rectangle" stroke="#333333" stroke-width="3" x="1.5" y="1.5" width="103" height="88"></rect>
+                <text id="GK" font-family="Futura-Medium, Futura" font-size="35" font-weight="400" fill="#333333">
+                    <tspan x="23" y="59">GK</tspan>
+                </text>
+                <g id="Rectangle-2" opacity="0.628736413" style="mix-blend-mode: darken;">
+                    <use fill="#A4D8BE" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#A4D8BE" stroke-width="1" x="8.5" y="12.5" width="105" height="90"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
