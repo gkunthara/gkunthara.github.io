@@ -114,7 +114,7 @@ textarea {
 }
 
 .support{
-    font-size: 33px;
+    font-size: 25px;
     line-height: 1.4;
 }
 .footer{
@@ -166,7 +166,7 @@ textarea {
 .header{
     margin-top: 30px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 .sub-header{
@@ -176,9 +176,10 @@ textarea {
 }
 
 .info{
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 30px;
-    line-height: 1.2;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 .image-container{
@@ -229,10 +230,7 @@ textarea {
     background-color: #A4D8BE;
     color: #666666;
     transition: background-color 0.5s ease;
-
-
 }
-
 
 .submit-button:hover{
     background-color: #333;
@@ -252,8 +250,7 @@ textarea {
 }
 
 .me{
-    margin-top: -50px;
-
+    margin-top: -100px;
     width: 85%;
     height: 85%;
 }
@@ -277,6 +274,11 @@ textarea {
 
 
  @media (max-width: 768px) {
+
+     .me{
+         margin-top: -25px;
+     }
+
      .navbar{
          padding: 25px;
          display: flex;
@@ -297,8 +299,8 @@ textarea {
          margin-top: 0px;
      }
      .support{
-         font-size: 30px;
-         width: 35vw;
+         font-size: 25px;
+         width: 45vw;
      }
      .learn-more{
          padding: 5px 25px;
@@ -352,6 +354,13 @@ textarea {
  }
  
  @media (max-width: 425px) {
+
+
+     .logo{
+         padding: 0;
+
+     }
+
      .navbar{
          padding: 25px;
          display: flex;
@@ -369,10 +378,15 @@ textarea {
      }
 
      .main{
-         margin-top: 0px;
+         margin-top: 0;
+         padding: 0;
+     }
+     .greetings{
+         font-size: 25px;
+
      }
      .support{
-         font-size: 25px;
+         font-size: 20px;
          width: 80vw;
      }
      .learn-more{
@@ -388,11 +402,19 @@ textarea {
      .resume{
          width: 90vw;
      }
+     .header{
+         font-size: 30px;
+     }
      .projects-section{
          margin-left: 0px;
      }
+     .sub-header{
+         font-size: 20px;
+
+     }
      .info{
          margin-left: 0px;
+         font-size: 13px;
      }
      .contact-section{
          margin-left: 0px;
@@ -419,13 +441,21 @@ textarea {
      }
 
      .me-section{
-         display: none;
+         margin-top: 150px;
+     }
+     .me{
+         width: 100%;
+         height: 100%;
      }
 
  }
 
 
 @media (max-width: 375px) {
+    .logo{
+        padding: 0;
+    }
+
     .navbar{
         padding: 25px;
         display: flex;
@@ -446,7 +476,7 @@ textarea {
         margin-top: 0px;
     }
     .support{
-        font-size: 20px;
+        font-size: 18px;
     }
     .learn-more{
         padding: 5px 25px;
@@ -488,7 +518,11 @@ textarea {
     }
 
     .me-section{
-        display: none;
+        margin-top: 150px;
+    }
+    .me{
+        width: 100%;
+        height: 100%;
     }
 
 
